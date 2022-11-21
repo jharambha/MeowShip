@@ -1,2 +1,3 @@
 # MeowShip
-Cat Selling website
+Cat Selling website as my MyEShop Project
+
