@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  margin-top: 5px;
+}
+.row{
+    display:flex;
+    padding: 20px;
+}
+.col-1{
+    flex: 3;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    position: relative;
+    bottom: 60px;
+    right: 10px;
+}
+.col-2{
+    display: inline-flex;
+    flex: 6;
+}
+.searchImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.searchBar{
+    width: 300px;
+    height: 50px;
+}
+.col-3{
+    display: inline-flex;
+    flex: 3;
+   
+}
+.cart{
+    width: 50px;
+    height: 50px;
+    padding-right: 20px;
+}
+.account{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 50px;
+}
+.div1{
+    background: linear-gradient(white,#FF8FB1,purple);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 130px;
+    color: #432C7A;
+    font-weight: 200px;
+    font-size: 30px;
+}
+.row2{
+    display: flex;
+    
+}
+.col2-1,.col2-2,.col2-3{
+    flex: 4;
+    position: relative;
+    bottom: 100px;
+    height: 490px;
+    background:linear-gradient(white,#FFADBC,purple,#FFADBC,white); ;
+    padding-left: 10px;
+    border: 10px solid white;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #432C7A; 
+    font-weight: 500;
+    font-size: 20px;
+}
+.meowImg,.lifestyleImg,.servicesImg{
+    position: relative;
+    bottom: 40px;
+    height: 300px;
+    border-radius: 50px;
+
+}
+
+.shopButtons1,.shopButtons2,.shopButtons3{
+    border-color: pink;
+    background-color: pink;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+.shopButtons1{
+    position: relative;
+}
